@@ -1,40 +1,31 @@
 {
   "configVersion": 1,
-  "groupName": "IzLuis' SMP",
-  "discordUrl": "https://discord.gg/Y5WtKnwEqU",
+  "groupName": "IzLuis SMP",
+  "discordUrl": "https://discord.com/invite/Y5WtKnwEqU",
 
   "packs": [
     {
-      "id": "season3",
-      "name": "Compas Season 3",
+      "id": "betaTest",
+      "name": "Beta Test",
       "description": "Fabric 1.21.1 — magia, tecnología y dungeons.",
-      "source": { "type": "modrinth", "project": "your-modrinth-pack-slug" },
-      "server": { "address": "mc.tuservidor.mx", "port": 25565 },
+      "source": { "type": "repo-file", "path": "packs/Vanilla Perfected 1.0.0.mrpack" },
+      "version": "1.0",
+      "server": { "address": "izluissmp.lat", "port": 3306 },
+      "icon": "https://i.imgur.com/tu-icono.png",
       "recommended": true
     }
   ],
 
   "announcements": [
     {
-      "id": "2026-07-08-test",
-      "date": "2026-07-08",
-      "title": "¡Test de IzLauncher! 🎉",
-      "pinned": true,
-      "body": "# Ya estamos en el launcher\n\nDesde hoy los modpacks del grupo **se instalan solos**: pestaña *Grupo* → Instalar → Jugar.\n\n- El botón *Jugar* te mete directo al server\n- Las actualizaciones del pack salen aquí con un clic\n- Cuando haya server nuevo, te aparece un anuncio como este\n\n> Cualquier duda, al Discord 👇"
-    },
-    {
-      "id": "2026-07-08-bienvenida",
-      "date": "2026-07-08",
-      "title": "¡Bienvenidos a IzLauncher! 🎉",
-      "pinned": true,
-      "body": "# Ya estamos en el launcher\n\nDesde hoy los modpacks del grupo **se instalan solos**: pestaña *Grupo* → Instalar → Jugar.\n\n- El botón *Jugar* te mete directo al server\n- Las actualizaciones del pack salen aquí con un clic\n- Cuando haya server nuevo, te aparece un anuncio como este\n\n> Cualquier duda, al Discord 👇"
-    },
-    {
-      "id": "2026-07-08-beta",
+      "id": "2026-07-09-betatest",
       "date": "2026-07-09",
-      "title": "¡Beta de IzLauncher! :D",
+      "title": "Beta Test de IzLauncher",
       "pinned": true,
-      "body": "# Beta test\n\nHub Grupal"
+      "emoji": "👨🏽‍💻",
+      "tag": "beta",
+      "author": "IzLuis",
+      "body": # ¡Primer test del Launcher\n\nEs importante destacar, que esto fue totalmente hecho con Claude.\n\![Imagen de manzana dorada](https://static.wikia.nocookie.net/minecraft_gamepedia/images/e/ed/Enchanted_Golden_Apple_JE2_BE2.gif/revision/latest?cb=20200430025309)"
     }
   ]
 }
